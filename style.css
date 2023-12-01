@@ -1,0 +1,86 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(
+    90deg,
+    hsla(162, 12%, 44%, 1) 13%,
+    hsla(163, 20%, 59%, 1) 77%
+  );
+  color: white;
+}
+
+@font-face {
+  font-family: "Famulred";
+  src: url("fonts/Famulred.otf");
+}
+
+.container {
+  margin: 0px 10vw;
+}
+
+.banner {
+  padding: 6rem 0rem;
+}
+
+.banner-name {
+  font-family: Famulred;
+  font-size: 6rem;
+}
+
+.banner-title {
+  margin: 6rem 0px;
+}
+
+.banner-title-1,
+.banner-title-2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 10px 1px 1px #4c665e;
+  transform: rotate(2deg);
+  margin: 2rem 0rem;
+}
+
+.banner-title-2 {
+  background-color: #c69774;
+}
+
+.terminal {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+@media only screen and (min-width: 600px) {
+  .terminal {
+    font-size: 2rem;
+  }
+  .banner-title-1,
+  .banner-title-2 {
+    font-size: 6rem;
+  }
+}
+
+.color-green {
+  color: green;
+}
+
+.color-blue {
+  color: blue;
+}
+
+.color-yellow {
+  color: yellow;
+}
+
+.color-pink {
+  color: pink;
+}
+
+.color-brown {
+  color: brown;
+}
